@@ -24,4 +24,6 @@ class Solution:
 # Depth first search made the most sense since we're going to the end of the column, then all the way to the bottom within the same column
 # then all the way to the left, and then all the way up
 # Base case is that revisit the same position or go out of bounds, and in those cases, you don't return anything
+# Time complexity = O(4^nm), Space Complexity = O(n * m) 
+# n = number of rows, m = number of columns
     
